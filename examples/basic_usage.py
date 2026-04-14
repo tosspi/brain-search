@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Basic usage example for Brain."""
 
-from moore_brain import BrainEngine, HybridSearch
+from brain_search import BrainEngine, HybridSearch
 
 # Initialize
 engine = BrainEngine()

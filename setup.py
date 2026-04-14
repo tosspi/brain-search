@@ -14,8 +14,9 @@ setup(
     description="Local hybrid search with Ollama embeddings",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/masonezhao/brain-search",
+    url="https://github.com/tosspi/brain-search",
     packages=find_packages(),
+    package_dir={'brain_search': 'brain_search'},
     classifiers=[
         "Development Status :: 4 - Beta",
         "Intended Audience :: Developers",
@@ -30,7 +31,7 @@ setup(
     python_requires=">=3.8",
     entry_points={
         "console_scripts": [
-            "brain=moore_brain.cli:main",
+            "brain=brain_search.cli:main",
         ],
     },
 )

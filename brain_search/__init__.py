@@ -18,4 +18,5 @@ __license__ = "MIT"
 from .core import BrainEngine
 from .search import HybridSearch
 
+__version__ = "1.0.0"
 __all__ = ["BrainEngine", "HybridSearch"]
