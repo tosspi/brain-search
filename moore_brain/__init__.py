@@ -15,7 +15,7 @@ __version__ = "1.0.0"
 __author__ = "Brain Contributors"
 __license__ = "MIT"
 
-from .brain import BrainEngine
+from .core import BrainEngine
 from .search import HybridSearch
 
 __all__ = ["BrainEngine", "HybridSearch"]
